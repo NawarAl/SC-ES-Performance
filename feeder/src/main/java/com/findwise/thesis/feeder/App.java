@@ -31,7 +31,7 @@ public class App {
         Scanner scanIn = new Scanner(System.in);
         searchEngine = scanIn.nextLine();
 
-        for (int samples = 1; samples <= 1; samples++) {
+        for (int samples = 1; samples <= 100; samples++) {
             if (searchEngine.equals("solr")) {
                 alg = new SolrAlgorithm();
                 resultFile = "c:/tmp/indexresult/collection4/SolrRAM4.txt";
